@@ -15,9 +15,9 @@ public class OrderedArrayList<T extends Comparable<T>> extends NoNullArrayList<T
     add(o);
   }
 
-  //public T set(int index, T o){
-
-  //}
+  public T set(int index, T o){
+    return o;
+  }
 
   public boolean compare(T other, int index){
     if (this.get(index).compareTo(other) == -1) return false;
