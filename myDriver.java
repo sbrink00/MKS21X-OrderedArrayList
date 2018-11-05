@@ -1,7 +1,6 @@
 public class myDriver{
   public static void main(String[]args){
     NoNullArrayList<String> a = new NoNullArrayList<>();
-    /*
     a.add("A");
     a.add("P");
     a.add("U");
@@ -27,7 +26,7 @@ public class myDriver{
     }
     catch (IllegalArgumentException e){
       e.printStackTrace();
-    }*/
+    }
 
     OrderedArrayList<String> b = new OrderedArrayList<>();
     b.add("a");
