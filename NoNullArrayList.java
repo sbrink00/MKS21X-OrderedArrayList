@@ -1,3 +1,5 @@
+//this comment is here so that this file can be
+//committed with an accurate message.
 import java.util.ArrayList;
 public class NoNullArrayList<T> extends ArrayList<T>{
 
